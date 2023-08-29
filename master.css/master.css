@@ -1,0 +1,64 @@
+* {
+padding: 0;
+margin:0;
+box-sizing: border-box;
+}
+
+.main-h1{
+display: inline-block;
+}
+/* so bene che andrebbe usato vertical-align: middle; ma in logo utilizzo questa grandezza specifica in pixel solo per una resa grafica migliore */
+.logo {                            
+    max-width: 100%;  
+    vertical-align: -21px;   
+    padding-top: 7px; 
+    padding-bottom: 7px;
+}
+
+.main-header{
+    max-width: 100%;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: 200;
+}
+
+main {
+    background-color: lightgray ;
+}
+
+.nav-container {
+    width: 800px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: white;
+    padding left: 20px;
+}
+
+/* Buttons */
+
+.button{
+    display: inline-block;
+    padding: 4px 9px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3089ee;
+    border: none;
+    border-radius: 15px;
+}
+
+.section{
+    background-color: white;
+    color: grey;
+    border: grey;
+    outline: auto;
+}
+
+.task {
+    margin-left: 40px;
+    margin-top: 8px;
+}
