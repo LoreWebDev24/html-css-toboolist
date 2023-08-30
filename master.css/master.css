@@ -121,4 +121,32 @@ main {
     background-color: rgb(37, 187, 37);
 }
 
-/* Le tick e le cross non sapevo come farle in maniera piu pulita senza entity codes se non con position absolute e relative e circondandole con un cerchio ma non credevo andasse bene dato che non lo abbiamo ancora visto a lezione */
+/* Le tick e le cross non sapevo come farle in maniera piu pulita senza entity codes se non con position absolute e relative e circondandole con un cerchio ma non credevo andasse bene dato che non lo abbiamo ancora visto a lezione */\
+
+/* Con Entity codes decorate: */
+
+/* .circle {
+    width: 24px;
+    aspect aspect-ratio: 1/1;
+    display: inline-block;
+    border: 1px solid :currentColor;
+    border-radius: 50%;
+}
+
+.task-status{
+    color: red;
+    border: 1px solid black;
+    text-allign: center;
+    line-height: 22px;
+    margin-right: 10px;
+}
+
+.task-status.done {
+    color: green; */
+}
+
+/* spaziature di correzione */
+
+/* .task{
+    margin-bottom: 8px;
+} */
